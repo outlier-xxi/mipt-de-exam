@@ -24,6 +24,7 @@ with DAG(
         image="de-exam-dag",
         command="python3 src/etl/fetch.py",
         do_xcom_push=True,
+        skip_on_exit_code=99,
     )
     # eda
     # train
