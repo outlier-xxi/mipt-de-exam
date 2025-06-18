@@ -10,7 +10,7 @@ def main():
     logger.info(tmsg := f"fetcher ...")
 
     data_dir: str = settings.data_dir
-    filename: str = settings.data_file
+    filename: str = settings.data_file_csv
     url: str = settings.url
 
     os.makedirs(data_dir, exist_ok=True)

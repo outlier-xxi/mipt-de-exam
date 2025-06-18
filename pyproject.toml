@@ -7,6 +7,10 @@ dependencies = [
     "loguru>=0.7.3",
     "pydantic-settings>=2.9.1",
     "requests>=2.32.4",
+    "pandas>=2.3.0",
+    "pyarrow>=20.0.0",
+    "scikit-learn>=1.7.0",
+    "yadisk>=3.3.0",
 ]
 
 [dependency-groups]
@@ -14,8 +18,6 @@ dev = [
     "apache-airflow>=3.0.2,<3.1.0",
     "apache-airflow-providers-docker>=4.4.0",
     "notebook>=7.4.3",
-    "pandas>=2.3.0",
     "pandas-stubs==2.2.3.250527",
-    "scikit-learn>=1.7.0",
     "seaborn>=0.13.2",
 ]
